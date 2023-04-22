@@ -23,8 +23,6 @@ header{
 #ilustracion{
     width: 400px;
     height: auto;
-  
-    
 }
 .colorFuentes{
     color: white;
@@ -54,18 +52,20 @@ header{
 #fotoPerfil{
     width: 100px;
     height: auto;
-    border-radius: 15px;
+    border-radius: 5px;
 
 
-}
-footer{
-    background-color: rgba(64, 99, 228, 1);
-    height: 50px;
-    width: 100%;
 }
 #footer{
-    text-decoration: none;
+    background-color: rgba(64, 99, 228, 1);
+    height: 50px;
+    padding-top: 1%;
+    
+}
+
+.iconFooter{
     color: white;
+    text-decoration: none;
 }
 
 
@@ -81,23 +81,24 @@ img{
 #proyectos{
     background-color: rgba(243, 230, 224, 1);
     height: 100%;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 1px dashed white;
 }
 
 #estudios{
     background-color: rgba(243, 230, 224, 1);
     height: 100%;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 1px dashed rgba(64, 99, 228, 1);
 }
 #contacto{
     background-color: rgba(243, 230, 224, 1);
     height: auto;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 1px dashed rgba(64, 99, 228, 1);
 
 }
+
 .certificado{
     height: 200px;
     width: auto;
@@ -139,13 +140,13 @@ img{
 }
 .imgCuadradaCard{
     padding: 5%;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .cardCuadrada{
     width: 300px;
     height: 400px;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 1px solid rgba(254, 254, 254, 1);
     margin: 20px;
 
@@ -155,13 +156,13 @@ img{
     height: 70%;
     border: 1px solid rgba(254, 254, 254, 1);
     margin-top: 5%;
-    border-radius: 15px;
+    border-radius: 5px;
 }  
 .btnCuadrado{
     width: 100px;
     height: 40px;
     border: 1px solid rgba(254, 254, 254, 1);
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: rgba(64, 99, 228, 1);
     color: rgba(243, 230, 224, 1);
     margin: 10%;
@@ -176,15 +177,23 @@ img{
     
 }
    
-.iconFooter{
-    color: white;
-    
-}
+
 .fotoModal{
     width: 600px;
     height: auto;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
     
+#galeria{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: brown;
+}
+    
+    
+  
+  
