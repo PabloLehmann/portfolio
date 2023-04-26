@@ -9,12 +9,14 @@ body{
    
 
 header{
-    background-image: url("./asset/bg.png");
-    background-color: aquamarine;
+    /* background-image: url("./asset/bg.png"); */
+    background-color: rgba(115, 212, 167, 1);
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
     width: auto;
+    border-bottom: 3px dashed rgba(64, 99, 228, 1);
+    border-left: 3px dashed rgba(64, 99, 228, 1);
 }
 .header{
     
@@ -44,6 +46,12 @@ header{
     background-color: rgba(64, 99, 228, 1);
     height: 60px;
     opacity: 95%;
+}
+.bgHamburger{
+    background-color: rgba(64, 99, 228, 1);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
 }
 #fotoPerfil{
     width: 100px;
@@ -180,6 +188,13 @@ img{
     border: 1px solid black;
     border-radius: 5px;
 }
+.galeria{
+    background-color: rgba(243, 230, 224, 1);
+    height: 100%;
+    border-radius: 5px;
+    border: 1px dashed rgba(64, 99, 228, 1);
+
+}
 
     
 #galeria{
@@ -187,14 +202,17 @@ img{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-    background-color: rgba(243, 230, 224, 1);
-    height: 100%;
-    border-radius: 5px;
-    border: 1px dashed rgba(64, 99, 228, 1);
 }
+    
+   
 .fuenteNav{
     color: white;
+}
+.containerCuadro{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 5px;
 }
 
     
