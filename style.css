@@ -32,11 +32,7 @@ header{
     color:rgba(64, 99, 228, 1) ;
     
 }
-.b-g-papel{
-    background-image: url(./asset/b-g-papel.png);
-    width: auto;
-    height: auto;
-}
+
 .b-g-header{
     background-color: antiquewhite;
     border-radius: 2px;
@@ -46,7 +42,7 @@ header{
 
 .navbarM{
     background-color: rgba(64, 99, 228, 1);
-    height: 50px;
+    height: 60px;
     opacity: 95%;
 }
 #fotoPerfil{
@@ -191,8 +187,16 @@ img{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: brown;
+    
+    background-color: rgba(243, 230, 224, 1);
+    height: 100%;
+    border-radius: 5px;
+    border: 1px dashed rgba(64, 99, 228, 1);
 }
+.fuenteNav{
+    color: white;
+}
+
     
     
   

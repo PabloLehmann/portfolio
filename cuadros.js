@@ -18,9 +18,9 @@ const mostrarFotos = (array) =>{
         const div = document.createElement('div')
         div.classList.add('producto')
         div.innerHTML = `
-                    <div class="card mb-4 text-center border border-black">
+                    <div class="card mb-4 text-center cardCuadrada  border border-black">
 
-                        <img src= ${producto.img} class="img-fluid cardCuadrada " alt = "">
+                        <img src= ${producto.img} class="img-fluid" alt = "">
                         <h3>${producto.nombre}</h3>
                         
                     </div>
