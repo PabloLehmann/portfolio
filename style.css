@@ -9,7 +9,7 @@ body{
    
 
 header{
-    /* background-image: url("./asset/bg.png"); */
+    background-image: url("./asset/bg.jpg");
     background-color: rgba(115, 212, 167, 1);
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +25,9 @@ header{
 #ilustracion{
     width: 400px;
     height: auto;
+    /* border : 1px solid white;
+    border-radius: 100%;
+    padding: 10px; */
 }
 .colorFuentes{
     color: white;
@@ -215,7 +218,13 @@ img{
     border-radius: 5px;
 }
 
+.pl{
+    background-color: rgba(115, 212, 167, 1);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100%;
+}
     
-    
+
   
   
