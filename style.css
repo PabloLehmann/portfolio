@@ -1,9 +1,14 @@
 
 body{
-    margin: 0px;
-    padding: 0px;
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
     background-color: rgba(250, 248, 247, 1);
-    font-family: 'Sue Ellen Francisco', cursive;
+    /* font-family: 'Sue Ellen Francisco', cursive; */
+    font-family: 'Edu NSW ACT Foundation';
+    /* font-family: 'Roboto', sans-serif; */
+    
+    
+
 }
 
    
@@ -38,17 +43,11 @@ header{
     
 }
 
-.b-g-header{
-    background-color: antiquewhite;
-    border-radius: 2px;
-}
-   
-
 
 .navbarM{
     background-color: rgba(64, 99, 228, 1);
     height: 60px;
-    opacity: 95%;
+    /* opacity: 95%; */
 }
 .bgHamburger{
     background-color: rgba(64, 99, 228, 1);
@@ -56,13 +55,7 @@ header{
     margin-top: 10px;
     padding-left: 15px;
 }
-#fotoPerfil{
-    width: 100px;
-    height: auto;
-    border-radius: 5px;
 
-
-}
 #footer{
     background-color: rgba(64, 99, 228, 1);
     height: 50px;
@@ -206,16 +199,60 @@ img{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#galeria2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#dibujo{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
     
    
 .fuenteNav{
     color: white;
 }
 .containerCuadro{
-    width: 300px;
+    width: 250px;
     height: 300px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
+}
+.imgCuadros{
+    /* width: 300px; */
+    height: 275px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.containerCuadro2{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.imgCuadros2{
+    width: 310px;
+    height: 225px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.containerDibujo{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.imgDibujo{
+    width: 230px;
+    height: 325px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .pl{
