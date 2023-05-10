@@ -4,11 +4,21 @@ body{
     /* padding-top: 0px; */
     background-color: rgba(250, 248, 247, 1);
     /* font-family: 'Sue Ellen Francisco', cursive; */
-    font-family: 'Edu NSW ACT Foundation';
-    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Sue Ellen Francisco'; */
+    /* font-family: 'Edu NSW ACT Foundation'; */
+    font-family: 'Roboto', cursive;
     
     
 
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+}
+ul{
+    font-size: 17px;
 }
 
    
@@ -16,12 +26,12 @@ body{
 header{
     background-image: url("./asset/bg.jpg");
     background-color: rgba(115, 212, 167, 1);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     height: auto;
     width: auto;
-    border-bottom: 3px dashed rgba(64, 99, 228, 1);
-    border-left: 3px dashed rgba(64, 99, 228, 1);
+    /* border-bottom: 3px dashed rgba(64, 99, 228, 1); */
+    /* border-left: 3px dashed rgba(64, 99, 228, 1); */
 }
 .header{
     
@@ -36,10 +46,10 @@ header{
 }
 .colorFuentes{
     color: white;
-    text-shadow: rgb(4, 4, 4) 1px 0 
+    /* text-shadow: rgb(4, 4, 4) 1px 0  */
 }
 .colorFuente2{
-    color:rgba(64, 99, 228, 1) ;
+    color:rgb(40, 41, 40);
     
 }
 
@@ -89,14 +99,32 @@ img{
     background-color: rgba(243, 230, 224, 1);
     height: 100%;
     border-radius: 5px;
-    border: 1px dashed rgba(64, 99, 228, 1);
+    border: 1px dashed white;
 }
 #contacto{
     background-color: rgba(243, 230, 224, 1);
     height: auto;
     border-radius: 5px;
-    border: 1px dashed rgba(64, 99, 228, 1);
+    border: 1px dashed white;
 
+}
+#galeria{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#galeria2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#dibujo{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .certificado{
@@ -173,7 +201,7 @@ img{
 .subTitulos{
     padding-top: 50px;
     padding-bottom: 50px;
-    text-shadow: rgb(4, 4, 4) 1px 0 
+    /* text-shadow: rgb(4, 4, 4) 1px 0  */
     
 }
    
@@ -188,29 +216,12 @@ img{
     background-color: rgba(243, 230, 224, 1);
     height: 100%;
     border-radius: 5px;
-    border: 1px dashed rgba(64, 99, 228, 1);
+    border: 1px dashed rgb(255, 255, 255);
 
 }
 
     
-#galeria{
-    
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-#galeria2{
-    
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-#dibujo{
-    
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+
     
    
 .fuenteNav{
