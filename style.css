@@ -5,14 +5,17 @@ body{
     background-color: rgba(250, 248, 247, 1);
     /* font-family: 'Sue Ellen Francisco', cursive; */
     /* font-family: 'Sue Ellen Francisco'; */
-    font-family: 'Edu NSW ACT Foundation';
-    /* font-family: 'Roboto', cursive; */
+    /* font-family: 'Edu NSW ACT Foundation'; */
+    /* font-family: 'Roboto', cursive; */;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Caveat', cursive;
+    
     
     
 
 }
 h1{
-    font-size: 40px;
+    font-size: 60px;
 }
 h2{
     font-size: 35px;
@@ -87,6 +90,9 @@ img{
     height: auto;
     width: 150px;
    margin: 100px;
+}
+#inicio{
+    width: 100%;
 }
 #proyectos{
     background-color: rgba(243, 230, 224, 1);
