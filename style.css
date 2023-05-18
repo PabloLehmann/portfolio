@@ -15,7 +15,7 @@ body{
     
     
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 h2{
     font-size: 40px;
@@ -97,6 +97,9 @@ img{
 #inicio{
     width: 100%;
 }
+/* #presentacion{
+    background-color: blue;
+} */
 #proyectos{
     background-color: rgba(243, 230, 224, 1);
     height: 100%;
