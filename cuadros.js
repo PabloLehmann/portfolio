@@ -127,3 +127,50 @@ const mostrarFotos3 = (array) =>{
     
 }
 mostrarFotos3(dibujos)
+
+//////////////////
+
+let fotos5 = [
+    {id:1, nombre: "Bajo el sol",       tipo: "Acrílico", img: "./asset/cuadros_2/1.png"},
+    {id:2, nombre: "Madre e Hija",      tipo: "Acrílico", img: "./asset/cuadros_2/2.png"},
+    {id:3, nombre: "Chusmeando",        tipo: "Acrílico", img: "./asset/cuadros_2/3.png"},
+    {id:4, nombre: "El borracho",       tipo: "Acrílico", img: "./asset/cuadros_2/4.png"},
+    {id:5, nombre: "Desde la ventana",  tipo: "Acrílico", img: "./asset/cuadros_2/5.png"},
+    {id:6, nombre: "Trabajo duro",      tipo: "Acrílico", img: "./asset/cuadros_2/6.png"},
+    {id:7, nombre: "Un paseo en globo", tipo: "Acrílico", img: "./asset/cuadros_2/7.png"},
+    {id:8, nombre: "Pensando",          tipo: "Acrílico", img: "./asset/cuadros_2/8.png"},
+    {id:9, nombre: "De cara al sol",    tipo: "Acrílico", img: "./asset/cuadros_2/9.png"},
+    
+]
+
+const galeriaFotos5 = document.getElementById('galeria5')
+
+const mostrarFotos5 = (array) =>{
+    galeriaFotos5.innerHTML= ''
+
+    array.forEach((producto) => {
+        const div = document.createElement('div')
+        div.classList.add('producto')
+        div.innerHTML = `
+                    <div class="  p-2 m-3 text-center containerDibujo border border-4 border-black">
+
+                        <img src= ${producto.img} class="img-fluid imgDibujo" alt = "">
+                        
+                     </div>
+                        <p> ${producto.tipo}</p>
+                    
+                        <h4 class="">${producto.nombre}</h4>
+                        <hr>
+                                    
+                    `
+                    galeriaFotos5.appendChild(div)    
+                            
+
+                        
+                       
+        
+        
+    });
+    
+}
+mostrarFotos5(fotos5)
